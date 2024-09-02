@@ -1,9 +1,8 @@
 import java.util.Scanner;
 
 
-public class ex_4
-{
-	public static void main(String[] args){
+public class Ex_4 {
+	public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
         int segundo;
@@ -12,6 +11,13 @@ public class ex_4
         segundo = input.nextInt();
         
 
-        int hora = segundo / 60;
+        int minuto = segundo / 60;
+        int hora = minuto / 60;
+        int dia = hora / 24;
+
+        System.out.printf("segundos: %d\n", segundo);
+        System.out.printf("minutos: %d\n", minuto);
+        System.out.printf("horas: %d\n", hora);
+        System.out.printf("dias: %d\n", dia);
     }
 }

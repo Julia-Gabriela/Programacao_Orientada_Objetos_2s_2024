@@ -3,10 +3,8 @@ import java.util.Scanner;
 
 
 
-public class ex_1
-{
-	public static void main(String[] args)
-	{
+public class Ex_1 {
+	public static void main(String[] args) {
 
         int num1, num2;
 
