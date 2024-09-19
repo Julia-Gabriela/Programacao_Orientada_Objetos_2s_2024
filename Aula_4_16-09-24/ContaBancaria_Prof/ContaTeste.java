@@ -22,8 +22,8 @@ public class ContaTeste
 		limite = entrada.nextDouble();
 
 		ContaBancaria conta1 = new ContaBancaria(numero, saldo, limite);
-		ContaBancaria conta2 = new ContaBancaria(12346, 1000, 100);
-		ContaBancaria conta3 = new ContaBancaria(12347, 500, 1000);
+		//ContaBancaria conta2 = new ContaBancaria(12346, 1000, 100);
+		//ContaBancaria conta3 = new ContaBancaria(12347, 500, 1000);
 
 		System.out.printf("O número de contas desse banco é %d\n", ContaBancaria.getNumContas());
 
