@@ -13,6 +13,8 @@ public class Cripto {
         System.out.println("Digite um numero de quatro digitos:");
         num = input.nextInt();
 
+        input.close();
+        
         if(num < 1000 || num >9999){
             System.out.println("Numero invalido! Devem ter quatro digitos.");
             return;

@@ -28,6 +28,6 @@ public class Ex_3 {
         } else {
             System.out.println("A equacao nao possui raizes reais.");
         }
-        
+        input.close();
     }
 }

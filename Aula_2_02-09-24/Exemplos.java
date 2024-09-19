@@ -36,6 +36,6 @@ public class Exemplos
             System.out.printf("%d e impar\n", num2);
         }
 
-
+        input.close();
 	}
 }

@@ -16,9 +16,9 @@ public class Primo {
         } else {
             System.out.println(num + " não e primo");
         }
-
+        entrada.close();
     }
-
+    
     
     public static boolean ehPrimo(int num) {
         if (num <= 1) {
@@ -36,5 +36,6 @@ public class Primo {
             }
         }
         return true;
+        
     }
 }

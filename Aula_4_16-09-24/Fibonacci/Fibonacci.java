@@ -22,5 +22,6 @@ public class Fibonacci {
             }
             System.out.println("O" + num + "-esimo termo da sequencia de fibonacci e igual a" + proximoTermo);
         }
+        input.close();
     }
 }

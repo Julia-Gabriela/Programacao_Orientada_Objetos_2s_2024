@@ -24,5 +24,6 @@ public class Ex_2 {
             }
 
         }
+        input.close();
     }
 }

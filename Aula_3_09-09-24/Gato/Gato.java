@@ -5,14 +5,14 @@ public class Gato
 {
 
 	private String nome;
-	private String dataNasc;
-	private double peso;
+	//private String dataNasc;
+	//private double peso;
 
 	public Gato(String nome, String dataNasc, double peso)
 	{
 		this.nome = nome;	
-		this.dataNasc = dataNasc;
-		this.peso = peso;			
+		//this.dataNasc = dataNasc;
+		//this.peso = peso;			
 	}
 
 	public void miar()

@@ -60,5 +60,6 @@ public class Banco {
                     break;
             }
         }
+        input.close();
     }
 }

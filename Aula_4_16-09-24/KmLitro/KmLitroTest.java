@@ -44,5 +44,6 @@ public class KmLitroTest {
             consumoMedioTotal = totalKm / totalLitros;
             System.out.printf("\nConsumo medio total: %.2f km/l", consumoMedioTotal);
         }
+        input.close();
     }
 }

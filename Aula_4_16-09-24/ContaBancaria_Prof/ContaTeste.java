@@ -57,6 +57,7 @@ public class ContaTeste
 		}
 
 		System.out.printf("A conta de %d foi criada com saldo de R$%.2f e limite de R$%.2f\n", conta1.getNumero(), conta1.getSaldo(), conta1.getLimite());
+		entrada.close();
 	}
 
 }

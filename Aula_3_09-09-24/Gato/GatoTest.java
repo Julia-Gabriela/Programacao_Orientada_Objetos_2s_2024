@@ -22,6 +22,8 @@ public class GatoTest
 		System.out.printf("O nome do seu gato é: %s\n", gatoDeBotas.getNome());
 		gatoDeBotas.miar();
 		gatoDeBotas.lamber();
+		
+		entrada.close();
 	}
 
 }

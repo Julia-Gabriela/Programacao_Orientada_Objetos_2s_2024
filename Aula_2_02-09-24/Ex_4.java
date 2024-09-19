@@ -19,5 +19,6 @@ public class Ex_4 {
         System.out.printf("minutos: %d\n", minuto);
         System.out.printf("horas: %d\n", hora);
         System.out.printf("dias: %d\n", dia);
+        input.close();
     }
 }

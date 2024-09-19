@@ -22,5 +22,6 @@ public class Ex_1 {
         System.out.printf("%d - %d = %d\n", num1, num2, num1-num2);
         System.out.printf("%d / %d = %d\n", num1, num2, num1/num2);
 
+        input.close();
     }
 }

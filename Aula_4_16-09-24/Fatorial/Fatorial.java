@@ -19,6 +19,6 @@ public class Fatorial {
 		}
 
         System.out.printf("O fatorial de %d e igual a %d", num, fatorial);
-
+        input.close();
     }
 }

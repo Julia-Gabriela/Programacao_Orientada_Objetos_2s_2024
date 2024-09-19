@@ -36,7 +36,7 @@ public class LimiteTest {
         } else {
             System.out.println("Limite de credito dentro dos parametros");
         }
-
+        input.close();
     }
 
 }
