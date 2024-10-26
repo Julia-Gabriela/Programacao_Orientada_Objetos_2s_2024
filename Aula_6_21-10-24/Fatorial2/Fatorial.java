@@ -6,13 +6,13 @@ public class Fatorial {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Digite um número inteiro positivo para calcular o fatorial: ");
+        System.out.print("Digite um numero inteiro positivo para calcular o fatorial: ");
         int numero = scanner.nextInt();
 
         // Verifica se o número é não negativo
-        assert numero >= 0 : "Erro: O número deve ser não negativo.";
+        assert numero >= 0 : "Erro: O numero deve ser nao negativo.";
 
-        System.out.println("Fatorial de " + numero + " é: " + calcularFatorial(numero));
+        System.out.println("Fatorial de " + numero + " e: " + calcularFatorial(numero));
 
         scanner.close();
     }
